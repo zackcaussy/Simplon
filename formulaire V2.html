@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Simplon</title>
+</head>
+<body>
+<fieldset> 
+    <legend><h1 style="color:#FF0000">Fomulaire de Contact - SIMPLON ONLINE </h1></legend>
+<p><label for="Prénom">Prénom :</label>
+
+        <input type="text" id="Prénom" name="Prénom" required
+            minlength="2" maxlength="20" size="30"></p>
+
+
+<p><label for="Nom">Nom :</label>
+
+        <input type="text" id="Nom" name="Nom" required
+            minlength="2" maxlength="20" size="30"></p>
+
+
+<p><label for="Age">Age :</label>
+
+        <input type="text" id="Age" name="Age" required
+            minlength="2" maxlength="3" size="3"></p>  
+                    
+<p><label for="E-mail">E-mail :</label>
+
+        <input type="text" id="E-mail" name="E-mail" required
+            minlength="2" maxlength="70" size="70"></p>
+
+<p><label for="Numéro">N° :</label>
+
+        <input type="text" id="Numéro" name="Numéro" required
+            minlength="2" maxlength="4" size="4"></p>
+    
+<p><label for="Rue">Rue :</label>
+
+    <input type="text" id="Rue" name="Rue" required
+            minlength="2" maxlength="20" size="30"></p>
+
+<p><label for="CodePostale">Code Postale :</label>
+
+    <input type="text" id="CodePostale" name="CodePostale" required
+            minlength="1" maxlength="5" size="5"></p>
+            
+<p><label for="Ville">Ville :</label>
+
+    <input type="text" id="Ville" name="Ville" required
+            minlength="2" maxlength="70" size="70"></p>
+
+<p><label for="NumérodeTéléphone">Numéro de Téléphone :</label>
+
+    <input type="text" id="NumérodeTéléphone" name="NumérodeTéléphone" required
+            minlength="2" maxlength="10" size="10"></p>
+
+<p><label for="Métierexercé">Métier exercé :</label>
+
+    <input type="text" id="Métierexercé" name="Métierexercé" required
+            minlength="2" maxlength="70" size="70"></p>
+
+<p><label for="Nationalité">Nationalité :</label>
+
+    <input type="text" id="Nationalité" name="Nationalité" required
+            minlength="2" maxlength="70" size="70"></p>
+
+<p><label for="DatedeNaissance">Date de Naissance :</label>
+
+    <input type="date" id="DatedeNaissance" name="DatedeNaissance"
+       value="2022-09-16"
+       min="1900-01-01" max="2022-12-31"></p>
+
+<p><label for="PaysdeNaissance">Pays de Naissance :</label>
+
+    <input type="text" id="PaysdeNaissance" name="PaysdeNaissance"
+            minlength="2" maxlength="70" size="70"></p>   
+
+<p><label for="Numérodesécuritésocial">Numéro de sécurité social :</label>
+
+    <input type="text" id="Numérodesécuritésocial" name="Numérodesécuritésocial"
+            minlength="2" maxlength="70" size="70"></p>   
+
+
+<p><label for="Numérodupasseport">Numéro du passeport :</label>
+
+    <input type="text" id="Numérodupasseport" name="Numérodupasseport" required
+            minlength="2" maxlength="20" size="30"></p>
+
+<p><label for="Datededélivrancedupasseport">Date de délivrance du passeport :</label>
+
+    <input type="date" id="Datededélivrancedupasseport" name="Datededélivrancedupasseport"
+                   value="2022-09-16"
+                   min="1900-01-01" max="2022-12-31"></p>
+
+<p><label for="Datedevaliditédupasseport">Date de validité du passeport :</label>
+
+    <input type="date" id="Datedevaliditédupasseport" name="Datedevaliditédupasseport"
+                                   value="2022-09-16"
+                                   min="1900-01-01" max="2022-12-31"></p>
+
+           
+<form>
+        <p>Veuillez choisir la meilleure méthode pour vous contacter :</p>
+           
+                <input type="radio" id="contactChoice1"
+                    name="contact" value="email">
+                    <label for="contactChoice1">Email</label>
+                  
+                <input type="radio" id="contactChoice2"
+                    name="contact" value="telephone">
+                    <label for="contactChoice2">Téléphone</label>
+                  
+                <input type="radio" id="contactChoice3"
+                    name="contact" value="courrier">
+                    <label for="contactChoice3">Courrier</label>
+            
+                <p>
+                      <button type="submit">Envoyer</button>
+                    </p>
+                
+                  </form>
+                </fieldset>
+</body>
+</html>
